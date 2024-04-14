@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered racing</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="car-box">
+        <div class="car-container" id="car-container">
+            <img src="car.svg" alt="Car" class="car" id="car">
+        </div>
+    </div>
+    <p></p>
+    <input type="text" placeholder="Enter something" disabled oninput="highlightInput(this.value)">
+    <div id="countdown" class="mt-3">Time remaining: <span id="seconds">10s</span></div>
+    <script src="app.js"></script>
+</body>
+</html>

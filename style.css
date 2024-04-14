@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Added to stack elements vertically */
+    align-items: center;
+    justify-content: center;
+}
+
+.car-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car {
+    width: 200px;
+    height: 100px;
+}
+
+input {
+    margin-top: 10px; /* Adjust as needed */
+}
+
+
+
+.car-container {
+    position: relative;
+}
+
+.car {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+}
+
+#countdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.car-container {
+    position: relative;
+}
+
+.car {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+}
+
+#countdown {
+    position: absolute;
+    top: 50%; /* Adjust this value to place it properly */
+    left: 50%; /* Adjust this value to place it properly */
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Added to stack elements vertically */
+    align-items: center;
+    justify-content: center;
+}
+
+.car-container {
+    position: relative;
+    width: 200px; /* Set width of the box */
+    height: 100px; /* Set height of the box */
+    border: 2px solid black; /* Example border styling */
+    padding: 10px; /* Example padding */
+    display: inline-block; /* Ensure the box wraps around the image */
+    background: none; /* Remove background color */
+}
+
+.car {
+    position: absolute; /* Changed position to absolute */
+    top: 0; /* Positioned at the top */
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+input {
+    margin-top: 10px; /* Adjust as needed */
+}
