@@ -23,8 +23,6 @@ input {
     margin-top: 10px; /* Adjust as needed */
 }
 
-
-
 .car-container {
     position: relative;
 }
@@ -43,7 +41,6 @@ input {
     padding: 10px;
     border-radius: 5px;
 }
-
 
 .car-container {
     position: relative;
